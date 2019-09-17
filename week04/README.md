@@ -7,6 +7,6 @@ My concept last week was to create a heatmap of Europe pre and peak Renaissance 
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/unnamed.jpg)
 
-![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/Screenshot 2019-09-17 at 9.02.52 AM.png)
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/US_data_search.png)
 
-![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/bertin retinal values.jpg)
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/bertin.jpg)
