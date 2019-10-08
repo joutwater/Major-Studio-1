@@ -28,3 +28,10 @@ If possible, I want to use my background in photogrammetry to replicate a simila
 
 ### Challenges
 
+1. Data: The MET doesn't have all of Rembrandt's portraits or self-protraits (understandably), so it will take some time on the web to find and verify all images. This will be especially tough since it is still debated whether some of his work is actually his, but I will just have to try my best. Also, I will have to store and manage my imagery locallly first, and bring into AWS somehow for manipulation in p5. Aside from the images, I do need to spend time getting information on each image and figure out how each relates to another. I will have to create some sort of map for this.
+
+2. Code: I haven't used a lot of the code that will be required for this project to work, but I think it is a doable challenge. I plan to follow the imagery lab last thursday and make slight edits to create my grid. I plan to learn about mouseover capabilities and apply them to the grid. I will use p5 for the imagery loop as well, since I have created animation following similar themes in a different class. I do want to spend some time in photoshop with each of the self-portraits to crop and edit the imagery so they flow well together.
+
+3. Hosting on website: I have never done this but I think the project would be best displayed in this way. I have to learn how to make this happen.
+
+4. Agisoft: Hopefully I can figure out a way to use the photogrammetry program agisoft to create the 3D model. I also hope I have time. I think it would be an amazing visualization though. It will be a last priority.
