@@ -17,3 +17,7 @@ My next visualization concept is to introduce the viewer to Rembrandt's self por
 
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2944.jpg)
+
+
+
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/agisoft_example.png)
