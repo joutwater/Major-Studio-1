@@ -10,14 +10,21 @@ I want to create a grid of Rembrandt's regular portraits first. There are betwee
 
 ## Viz 2
 
-My next visualization concept is to introduce the viewer to Rembrandt's self portraits. I want to loop through each of Rembrandt's forty self portraits to show how he grew older over time (from his perspective) and hopefully highlight any stylistic differences. I wonder if I should add a date or another visual variable to offer an addition understanding of progression in each image.
+My next visualization concept is to introduce the viewer to Rembrandt's self portraits. I want to loop through each of Rembrandt's forty self portraits to show how he grew older over time (from his perspective) and hopefully highlight any stylistic differences. I am thinking of using framecount in p5 and changing opactity to more seamlessly flow through each portrait. I wonder if I should add a date or another visual variable to offer an addition understanding of progression in each image.
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2943.jpg)
 
+## Viz 3
 
+This visualization supplements the previous self-portrait example, offering a timeline showing the amount of self-portraits created in each year on top (images stacked) and then biographical life events below the timeline. It could be interesting to see how life events could have affected his self-portraits. Maybe this would be better to show both regular portriats and self-portraits so there would be more data points? This would be a static viz as of now.
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2944.jpg)
 
+## Viz 4
 
+If possible, I want to use my background in photogrammetry to replicate a similar environment to rembrandt's portraits. If I can get a free trial of the program, I would take pictures around a subject at different heights, and process the photos to create a dense cloud showing 3D qualitites of a recreated studio. This would be a bit of a bonus but I think it would be cool to see a 3D space.
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/agisoft_example.png)
+
+### Challenges
+
