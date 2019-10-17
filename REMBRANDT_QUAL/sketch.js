@@ -653,15 +653,15 @@ function drawImages(searchTerm) {
     
     push();
     fill(180);
-    textSize(30)
+    textSize(35)
     textFont(font3);
     // textAlign(CENTER);
-    text(' :   ZelfPortret', 800, 50);
+    text(' :   ZelfPortret', 817, 50);
     pop();
     
     push();
     fill(180);
-    textSize(30);
+    textSize(35);
     textFont(font4); 
     // textAlign(CENTER);
     text('Rembrandt : ', 630, 50);
