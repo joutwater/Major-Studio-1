@@ -42,6 +42,7 @@ function preload(){
       font3 = loadFont('fonts/Felipa.ttf');
       font4 = loadFont('fonts/DMSerifText-Regular.ttf');
       font5 = loadFont('fonts/BreeSerif-Regular.ttf');
+      sign = loadImage('SVG/Asset_1.svg');
 }
 
 function setup() {
@@ -50,6 +51,8 @@ function setup() {
 //  original canvas	
 // 	createCanvas(bufferLeft+560,1500);
 	qual_data = loadJSON("test.json", loadImages);
+	
+	
 	
 	var col = color(200);
 	
@@ -292,40 +295,40 @@ function setup() {
 //// Career ///////////////////////////
 
   function highlightCareerE(x,y,w,h){
-    strokeWeight(4);
-    stroke('rgba(230, 184, 0, 1.0)');
+   strokeWeight(3);
+    stroke('rgba(255,248,146, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
     rect(112, 200, 8, 8)
   }
   function highlightCareerEM(x,y,w,h){
-    strokeWeight(4);
-    stroke('rgba(230, 184, 0, 1.0)');
+   strokeWeight(3);
+    stroke('rgba(255,248,146, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
     rect(112, 230, 8, 8);
   }
   function highlightCareerM(x,y,w,h){
-    strokeWeight(4);
-    stroke('rgba(230, 184, 0, 1.0)');
+   strokeWeight(3);
+    stroke('rgba(255,248,146, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
     rect(112, 260, 8, 8);
   }
    function highlightCareerML(x,y,w,h){
-    strokeWeight(4);
-    stroke('rgba(230, 184, 0, 1.0)');
+    strokeWeight(3);
+    stroke('rgba(255,248,146, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
     rect(112, 290, 8, 8);
   }
    function highlightCareerL(x,y,w,h){
-    strokeWeight(4);
-    stroke('rgba(230, 184, 0, 1.0)');
+    strokeWeight(3);
+    stroke('rgba(255,248,146, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -335,9 +338,9 @@ function setup() {
 ////////// Transition PIECE//////////////
 
   function highlightTransition(x,y,w,h){
-    fill(200);
+    fill(255);
     noStroke();
-    ellipse(x+w-5, y+h-5, 20);
+    ellipse(x+11, y+h-11, 14);
     ellipse(160, 362, 7);
   }
   
@@ -370,32 +373,34 @@ function setup() {
 
   function highlightCommon(x,y,w,h){
     noStroke();
-    fill('rgba(102,166,30, 0.3)');
-    rect(x,(y+(h*(2/3))),w,((h/3)));
+    fill('rgba(222,222,222, 0.7)');
+    rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 500, 8, 8);
   }
   function highlightFancy(x,y,w,h){
   noStroke();
-    fill('rgba(231,41,138, 0.3)');
-    rect(x,(y+(h*(2/3))),w,((h/3)));
+    fill('rgba(255,164,92, 0.7)');
+    rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 530, 8, 8);
   }
   function highlightCostume(x,y,w,h){
  noStroke();
-    fill('rgba(56,108,176, 0.3)');
-    rect(x,(y+(h*(2/3))),w,((h/3)));
+    fill('rgba(214,192,55, 0.7)');
+    rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 560, 8, 8);
   }
   
 ///////////////CONTROVERSY////////////////////  
   
   function highlightAttrDb(x,y,w,h){
-    strokeWeight(0.5);
-    stroke(0);
-    fill(255);
-    noStroke();
-    rect(x+w-20, y+10, 27, 4);
-    rect(177, 662, 10, 2)
+    // strokeWeight(0.5);
+    // stroke(0);
+    // fill(255);
+    // noStroke();
+    image(sign,x+w-23,y+7, 22, 6);
+    image(sign,177,658, 18, 6);
+    // rect(x+w-20, y+10, 27, 4);
+    // rect(177, 662, 10, 2)
     // textSize(10);
     // fill(250, 250, 250, 50);
     // text('XXXXXXXX', x-8, y+h-8);
