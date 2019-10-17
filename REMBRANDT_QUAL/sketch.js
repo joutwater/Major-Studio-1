@@ -43,6 +43,7 @@ function preload(){
       font4 = loadFont('fonts/DMSerifText-Regular.ttf');
       font5 = loadFont('fonts/BreeSerif-Regular.ttf');
       sign = loadImage('SVG/Asset_1.svg');
+      title = loadImage('SVG/Asset_2.svg');
 }
 
 function setup() {
@@ -296,7 +297,7 @@ function setup() {
 
   function highlightCareerE(x,y,w,h){
    strokeWeight(3);
-    stroke('rgba(255,248,146, 1.0)');
+    stroke('rgba(255,255,255, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -304,7 +305,7 @@ function setup() {
   }
   function highlightCareerEM(x,y,w,h){
    strokeWeight(3);
-    stroke('rgba(255,248,146, 1.0)');
+    stroke('rgba(255,255,255, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -312,7 +313,7 @@ function setup() {
   }
   function highlightCareerM(x,y,w,h){
    strokeWeight(3);
-    stroke('rgba(255,248,146, 1.0)');
+    stroke('rgba(255,255,255, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -320,7 +321,7 @@ function setup() {
   }
    function highlightCareerML(x,y,w,h){
     strokeWeight(3);
-    stroke('rgba(255,248,146, 1.0)');
+   stroke('rgba(255,255,255, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -328,7 +329,7 @@ function setup() {
   }
    function highlightCareerL(x,y,w,h){
     strokeWeight(3);
-    stroke('rgba(255,248,146, 1.0)');
+  stroke('rgba(255,255,255, 1.0)');
     noFill();
     rect(x,y,w,h);
     strokeWeight(1);
@@ -338,7 +339,7 @@ function setup() {
 ////////// Transition PIECE//////////////
 
   function highlightTransition(x,y,w,h){
-    fill(255);
+    fill(200);
     noStroke();
     ellipse(x+11, y+h-11, 14);
     ellipse(160, 362, 7);
@@ -373,21 +374,22 @@ function setup() {
 
   function highlightCommon(x,y,w,h){
     noStroke();
-    fill('rgba(222,222,222, 0.7)');
+    fill('rgba(214,192,55, 0.6)');
     rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 500, 8, 8);
   }
   function highlightFancy(x,y,w,h){
   noStroke();
-    fill('rgba(255,164,92, 0.7)');
+    fill('rgba(216,114,21, 0.6)');
     rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 530, 8, 8);
   }
   function highlightCostume(x,y,w,h){
  noStroke();
-    fill('rgba(214,192,55, 0.7)');
+    fill('rgba(255,83,90, 0.6)');
     rect(x,(y+(h*(3/4))),w,((h/4)));
     rect(112, 560, 8, 8);
+    
   }
   
 ///////////////CONTROVERSY////////////////////  
@@ -656,7 +658,7 @@ function drawImages(searchTerm) {
     textSize(35)
     textFont(font3);
     // textAlign(CENTER);
-    text(' :   ZelfPortret', 817, 50);
+    text(' :   ZelfPortret', 817, 70);
     pop();
     
     push();
@@ -664,9 +666,9 @@ function drawImages(searchTerm) {
     textSize(35);
     textFont(font4); 
     // textAlign(CENTER);
-    text('Rembrandt : ', 630, 50);
+    text('Rembrandt : ', 630, 70);
     pop();
-    
+  
     
     // if((i+1)%4===0){
     //   //find the largest height on the row
