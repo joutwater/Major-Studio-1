@@ -26,7 +26,6 @@ var filters = {
   transition:null,
   
   leiden:null,
-  amster:null,
   
   common:null,
   fancy:null,
@@ -34,7 +33,6 @@ var filters = {
   
   copiesExist:null,
   attrDebate:null,
-  locationPainted:null
 };
 
 
@@ -47,7 +45,8 @@ function preload(){
 }
 
 function setup() {
-	createCanvas(1536,1000);
+	createCanvas(2000,1000);
+//  2nd canvas createCanvas(1536,1000);	
 //  original canvas	
 // 	createCanvas(bufferLeft+560,1500);
 	qual_data = loadJSON("test.json", loadImages);
@@ -618,7 +617,7 @@ function drawImages(searchTerm) {
     push();
     fill(240);
     textSize(27)
-    // textFont("Times New Roman");
+    textFont(font4);
     // textAlign(CENTER);
     text('career', 15, 180);
     pop();
