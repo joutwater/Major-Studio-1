@@ -1,0 +1,5 @@
+## Process
+
+At the outset of this project, I knew that I wanted to focus on Dutch Impressionism and imagery, but I wasn't sure of which artist to focus on. After looking at a few of the prominent artists from the time, Rembrandt stood out as having the most unique story, especially through his approximately forty self-portraits. I thought, "there must be an interesting story to tell here." I began researching like crazy, at first looking into all of his portraits, not just self-portraits. I was finding really amazing connections. For example, one of his self-portaits was painted on wood from the same tree as two portrait set he painted of other men. At a certain point, however, I realized there was a very rich story just by looking at his self-portraits, not only becuase there were some interesting commonalities between them but I thought it was very interesting how he was telling a story about himself, sometimes characterizing himself slightly different from his reality at the time of painting each.
+
+
