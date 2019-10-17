@@ -13,10 +13,8 @@ let font3;
 let font4;
 let font5;
 
-var qualVar = [];
-var locPaint = [];
-
 var filters = {
+  
   early:null,
   earlyMid:null,
   middle:null,
@@ -48,9 +46,6 @@ function preload(){
 
 function setup() {
 	createCanvas(2000,1000);
-//  2nd canvas createCanvas(1536,1000);	
-//  original canvas	
-// 	createCanvas(bufferLeft+560,1500);
 	qual_data = loadJSON("test.json", loadImages);
 	
 	
@@ -182,21 +177,6 @@ function setup() {
 	  drawImages();
 	});
 	
-// 	//Location Painted : Amsterdam
-// 	var button = createButton("Amsterdam");
-// 	button.style("font-family","inconsolata");
-// 	button.style('font-size', '17px');
-// 	button.style("background-color", "#000");
-//   button.style("color", col);
-// 	button.position(20, 450);
-// 		button.mousePressed(function(){
-// 	  if(filters.amster==="Amsterdam"){
-// 	  filters.amster=null;
-// 	}else{
-// 	  filters.amster="Amsterdam";
-// 	}
-// 	  drawImages();
-// 	});
 	
 	/////////////////////////////////////////
 	
@@ -287,9 +267,6 @@ function setup() {
 	  drawImages();
 	});
 	
-	
-	
-  // loadImages();
 }
 
 
@@ -366,9 +343,7 @@ function setup() {
     
     rect(109.5, 430, 15, 3)
   }
-  // function highlightAmster(x,y,w,h){
-    
-  // }
+
   
 /////////ATTIRE////////////////////////////////
 
@@ -395,17 +370,9 @@ function setup() {
 ///////////////CONTROVERSY////////////////////  
   
   function highlightAttrDb(x,y,w,h){
-    // strokeWeight(0.5);
-    // stroke(0);
-    // fill(255);
-    // noStroke();
+
     image(sign,x+w-23,y+7, 22, 6);
     image(sign,177,658, 18, 6);
-    // rect(x+w-20, y+10, 27, 4);
-    // rect(177, 662, 10, 2)
-    // textSize(10);
-    // fill(250, 250, 250, 50);
-    // text('XXXXXXXX', x-8, y+h-8);
 
   }
   function highlightCopiesExist(x,y,w,h){
@@ -442,24 +409,14 @@ function loadImages(){
     }
 }
 
-// function draw(){
-//   noFill();
-//   stroke(255, 204, 0);
-//   strokeWeight(4);
-//   rect(200, 100, 100, 150)
-// }
-
 
 
 function drawImages(searchTerm) {
   background(0);
   fill(220);
-  // textSize(15);
-  // textFont(font1);
   let y = margin;
   let x = margin + bufferLeft;
   let maxHeight = 0;
-  // let y1 = (margin + img_height + 10);
   for(var i=0; i<imagesToLoad; i++){
     
     const img_ratio = images[i].height/images[i].width;
@@ -476,6 +433,9 @@ function drawImages(searchTerm) {
     
     
        ////////////////////ATTIRE///////////////////////////////////////////////
+       
+    // if statemetns below:  && means "and", both sides have to be true. if filters.xxxx and qualdata exists,
+    //then look for the item in the array/object and draw the selection with the technique defined above.
     
     if(filters.common && qual_data[i].qualitativevariables.includes(filters.common)){
       push();
@@ -558,39 +518,12 @@ function drawImages(searchTerm) {
     }
     
     
-    //   if(searchTerm && qual_data[i] && qual_data[i].locationpainted.includes(searchTerm)){
-    //   // && means "and", both sides have to be true. if search Term and qualdata exists then look for the item in the array/object
-    //   strokeWeight(2);
-    //   // noFill();
-    //   stroke(0, 230, 230);
-    //   // line(x+200,y1+150,img_width, img_height);
-    //   noStroke();
-    // }
-    
-    // if(searchTerm && qual_data[i] && qual_data[i].qualitativevariables.includes(searchTerm)){
-    //   // && means "and", both sides have to be true. if search Term and qualdata exists then look for the item in the array
-    //   strokeWeight(2);
-    //   noFill();
-    //   stroke(230, 230, 0);
-    //   rect(x+200,y+150,img_width, img_height);
-    //   noStroke();
-    // }
-    
-    //   if(searchTerm && qual_data[i] && qual_data[i].qualitativevariables.includes("transition_piece")){
-    //   // && means "and", both sides have to be true. if search Term and qualdata exists then look for the item in the array
-    //   strokeWeight(7);
-    //   noFill();
-    //   stroke(200, 0, 0);
-    //   rect(x,y+150,img_width, img_height);
-    //   noStroke();
-    // }
-
-    
     if(i%8===7){
-      //reset for new row. the remainder will always be 4 at index 4, 9, 14, 19... That will be the point at which a new row is started
+      //reset for new row. the remainder will always be 7 at index 7, 15, 23, 31... That will be the point at which a new row is started
       x = margin + bufferLeft;
-
       y += maxHeight + margin;
+      
+      // making some extra space between first and second row to give the location painted symbols enough room to draw
       if (i ===7){
         y += 25;
       }
@@ -601,31 +534,10 @@ function drawImages(searchTerm) {
       x += img_width + margin;
     }
     
-    // if(i%8===7, i<=7){
-    //   //reset for new row. the remainder will always be 4 at index 4, 9, 14, 19... That will be the point at which a new row is started
-    //   x = margin + bufferLeft;
-    //   y += maxHeight + margin;
-    //   //find new max height on each row
-    //   maxHeight = 0;
-    // }
-    // else{
-    //   x += img_width + margin;
-    // }
-    
-    // push();
-    // text(qual_data[i].filename, x, margin + img_height + margin, img_width, 200);
-    // pop();
-   
-
-    // text('Career', 20, 80);
-    
-   
-    
     push();
     fill(240);
     textSize(27)
     textFont(font4);
-    // textAlign(CENTER);
     text('career', 15, 180);
     pop();
     
@@ -633,7 +545,6 @@ function drawImages(searchTerm) {
     fill(240);
     textSize(27)
     textFont(font4);
-    // textAlign(CENTER);
     text('location painted', 15, 410);
     pop();
     
@@ -641,7 +552,6 @@ function drawImages(searchTerm) {
     fill(240);
     textSize(27)
     textFont(font4);
-    // textAlign(CENTER);
     text('attire', 15, 480);
     pop();
    
@@ -649,7 +559,6 @@ function drawImages(searchTerm) {
     fill(240);
     textSize(27)
     textFont(font4);
-    // textAlign(CENTER);
     text('controversy', 15, 610);
     pop();
     
@@ -657,7 +566,6 @@ function drawImages(searchTerm) {
     fill(180);
     textSize(35)
     textFont(font3);
-    // textAlign(CENTER);
     text(' :   ZelfPortret', 817, 70);
     pop();
     
@@ -665,16 +573,9 @@ function drawImages(searchTerm) {
     fill(180);
     textSize(35);
     textFont(font4); 
-    // textAlign(CENTER);
     text('Rembrandt : ', 630, 70);
     pop();
-  
-    
-    // if((i+1)%4===0){
-    //   //find the largest height on the row
-    
-    // }
-    
+
   }
 
 }
