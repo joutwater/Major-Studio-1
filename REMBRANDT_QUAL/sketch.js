@@ -56,7 +56,7 @@ function setup() {
 	
   //Early Career
 	var button = createButton("early");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -73,7 +73,7 @@ function setup() {
 
 	//Early-Mid Career
 	var button = createButton("early-mid");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -90,7 +90,7 @@ function setup() {
 	
 	//Middle Career
 	var button = createButton("middle");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -107,7 +107,7 @@ function setup() {
 	
 	//Mid-Late Career
 	var button = createButton("mid-late");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -124,7 +124,7 @@ function setup() {
 	
 	//Late Career
 	var button = createButton("late");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -143,7 +143,7 @@ function setup() {
 	
 	//Transition Piece
 	var button = createButton("transition piece");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -162,7 +162,7 @@ function setup() {
 	
 	//Location Painted : Leiden
 	var button = createButton("on / off");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -182,7 +182,7 @@ function setup() {
 	
 	//Attire: Common
 	var button = createButton("common");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -199,7 +199,7 @@ function setup() {
 	
 	//Attire: Fancy
 	var button = createButton("fancy");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -216,7 +216,7 @@ function setup() {
 	
 	//Attire: Costume
 	var button = createButton("costume");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -235,7 +235,7 @@ function setup() {
 	
 	//Controversy : Copies Exist
 	var button = createButton("copies exist");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -252,7 +252,7 @@ function setup() {
 	
 	//Controversy : Attribution Debated
 	var button = createButton("attribution debated");
-	button.style("font-family","inconsolata");
+	button.style("font-family","Consolas");
 	button.style('font-size', '17px');
 	button.style("background-color", "#000");
   button.style("color", col);
@@ -330,7 +330,7 @@ function setup() {
     rect(390, 292, 880, 2);
     rect(390, 172, 2, 120);
     textSize(13);
-    textFont("inconsolata");
+    textFont("Consolas");
     text('Leiden', 345, 235);
     
     fill(120);
@@ -338,7 +338,7 @@ function setup() {
     rect(390, 297, 880, 2);
     rect(390, 297, 2, 120);
     textSize(13);
-    textFont("inconsolata");
+    textFont("Consolas");
     text('Amsterdam', 320, 360);
     
     rect(109.5, 430, 15, 3)

@@ -1,0 +1,88 @@
+.counties {
+  fill: none;
+}
+.states {
+  fill: none;
+  stroke: #ffffff;
+  stroke-linejoin: round;
+}
+		#scrolly {
+			position: relative;
+			display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+			background-color: #ffffff;
+			padding: 1rem;
+		}
+		#scrolly > * {
+			-webkit-box-flex: 1;
+    	-ms-flex: 1;
+    	flex: 1;
+		}
+		article {
+			position: relative;
+			padding: 0 1rem;
+			max-width: 20rem;
+		}
+		
+		h1{
+		  font-size: 4em;
+		  text-align: center;
+		}
+		
+		h2{
+		  font-size:2em;
+		  text-align: center;
+		}
+		
+		h3{
+			font-size: 2em;
+			text-align: center;
+		}
+		
+		section{
+			margin:200px 0;
+		}
+		#Cumulative{
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			align-content: center;
+		}
+		
+		figure {
+			position: -webkit-sticky;
+			position: sticky;
+			width: 100%;
+			margin: 0;
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+		figure img {
+		max-width: 100%;
+		}
+		.step {
+			/*margin: 0 auto 2rem auto;*/
+			background-color: #3b3b3b;
+			color: #fff;
+		}
+		.step:last-child {
+			margin-bottom: 0;
+		}
+		.step.is-active {
+			background-color: #fff7bc;
+			color: #3b3b3b;
+		}
+		.step p {
+			text-align: left;
+			padding: 1rem;
+			font-size: 1.5rem;
+		}
+		.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: relative;*/
+}
