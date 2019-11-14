@@ -37,8 +37,8 @@
 			})
 
 			// update graphic based on step
-			// figure.select('img').attr("src", response.element.getAttribute("data-src"));
-			figure.select('img', 'svg').attr("src", response.element.getAttribute("data-src"));
+			figure.select('img').attr("src", response.element.getAttribute("data-src"));
+			// figure.select('img', 'svg').attr("src", response.element.getAttribute("data-src"));
 		}
 
 		function setupStickyfill() {

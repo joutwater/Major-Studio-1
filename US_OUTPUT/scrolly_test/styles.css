@@ -65,15 +65,15 @@
 		}
 		.step {
 			/*margin: 0 auto 2rem auto;*/
-			background-color: #3b3b3b;
-			color: #fff;
+			background-color: #ffffff;
+			color: LightGray;
 		}
 		.step:last-child {
 			margin-bottom: 0;
 		}
 		.step.is-active {
-			background-color: #fff7bc;
-			color: #3b3b3b;
+			background-color: #3b3b3b;
+			color: #000000;
 		}
 		.step p {
 			text-align: left;
