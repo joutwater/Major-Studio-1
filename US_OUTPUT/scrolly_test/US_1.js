@@ -64,7 +64,7 @@ g.append("text")
     .attr("fill", "#000")
     .attr("text-anchor", "start")
     .attr("font-weight", "bold")
-    .text("Cumulative : 8000 American Artworks (1783-1945)");
+    // .text("Cumulative : 8000 American Artworks (1783-1945)");
 
 // Legend markings - 2%, 3%, etc.
 // g.call(d3.axisBottom(x)

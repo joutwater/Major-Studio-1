@@ -38,7 +38,10 @@
 
 			// update graphic based on step
 			figure.select('img').attr("src", response.element.getAttribute("data-src"));
-			// figure.select('img', 'svg').attr("src", response.element.getAttribute("data-src"));
+			// figure.select('svg', 'img').attr("src", response.element.getAttribute("data-src"));
+			// if(response.element.getAttribute("data-src")==="Layer_1")
+			// figure.innerHTML = document.querySelector("#"+response.element.getAttribute("data-src")).outerHTML;
+			// else figure.select('img').attr("src", response.element.getAttribute("data-src"));
 		}
 
 		function setupStickyfill() {
@@ -60,7 +63,16 @@
 				step: '#scrolly article .step',
 				offset: 0.75,
 				debug: false,
+				
 			})
+			
+			// if (response.direction == "up"){
+			// 	scroller.setup({
+			// 	step: '#scrolly article .step',
+			// 	offset: 0.25,
+			// 	debug: false,
+			// 	})	
+			// }
 				.onStepEnter(handleStepEnter)
 
 
