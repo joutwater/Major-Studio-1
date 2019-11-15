@@ -7,10 +7,16 @@
   stroke-linejoin: round;
 }
 
-		/*head {*/
-		/*	font-family: 'Prata', serif;*/
-		/*}*/
-
+		head {
+			font-family: 'Libre Baskerville', serif;
+		}
+		h4{
+			text-align: left;
+			margin-left: 450px;
+			margin-right: 450px;
+			font-size: 1.5em;
+			
+		}
 		body {
 			font-family: 'Libre Baskerville', serif;
 		}
@@ -36,16 +42,16 @@
 		}
 		
 		h1{
-		  font-family: 'Prata', serif;
+		  font-family: 'Libre Baskerville', serif;
 		  font-size: 4em;
 		  text-align: center;
-		  margin-bottom: 0;
+		  margin-bottom: 0px;
 		}
 		
 		h2{
 		  font-size:2em;
 		  text-align: center;
-		  margin-top: 0;
+		  margin-top: 0px;
 		}
 		
 		h3{
@@ -56,6 +62,7 @@
 		section{
 			margin:200px 0;
 		}
+
 		#Cumulative{
 			display: flex;
 			justify-content: center;
@@ -92,7 +99,7 @@
 		.step p {
 			text-align: left;
 			padding: 1rem;
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 		}
 		.center {
   			display: block;
@@ -100,7 +107,6 @@
   			margin-right: auto;
   			/*width: relative;*/
 		}
-		
 		#articleImages{
 			display: flex;
 			flex-direction: column;
