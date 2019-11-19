@@ -7,11 +7,62 @@
 // https://bl.ocks.org/chucklam/f628765b873d707a3d0e44ffc78deab8
 
 //states are in alphabetical order
-var images = {1:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310689/654500/main-image"},
-              2:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310688/673562/main-image"},
-              4:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310690/654501/main-image"},
-              5:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310691/678103/main-image"}
+var images = {10:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/14341/44171/restricted"},
+              12:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319026/679111/restricted"},
+              13:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/504694/1026215/restricted"},
+              15:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/313842/666803/restricted"},
+              16:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/501204/1023441/main-image"},
+              17:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/13763/42442/restricted"},
+              18:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/503471/1405703/restricted"},
+              19:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319051/676520/main-image"},
+              20:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/502604/1899060/restricted"},
+              21:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/3740/41072/main-image"},
+              22:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/3835/18835/main-image"},
+              23:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/14198/34391/restricted"},
+              24:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/2672/46295/main-image"},
+              25:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/711548/1644433/restricted"},
+              26:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/19722/19698/restricted"},
+              27:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/4995/16149/main-image"},
+              28:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/20144/44092/restricted"},
+              29:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/14075/23546/main-image"},
+              30:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/318354/667698/main-image"},
+              31:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319102/676513/main-image"},
+              33:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/8159/1516965/main-image"},
+              34:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/4022/4662/main-image"},
+              35:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319201/676919/main-image"},
+              36:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/39/4360/main-image"},
+              37:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/21284/1395930/main-image"},
+              38:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319139/679154/restricted"},
+              39:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/5154/27348/restricted"},
+              40:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/766353/1744198/main-image"},
+              41:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310689/654500/main-image"},
+              42:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/10024/10945/main-image"},
+              44:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/3124/16358/restricted"},
+              45:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/761604/1811375/main-image"},
+              46:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717548/1836219/restricted"},
+              47:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/7798/8229/main-image"},
+              48:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/503458/1019215/restricted"},
+              50:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/2544/48909/main-image"},
+              51:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/13907/32229/main-image"},
+              53:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319097/678817/restricted"},
+              54:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/9337/43645/main-image"},
+              55:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319100/678187/main-image"},
+              56:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/21186/49517/main-image"}
+              
             };
+            
+var tooltip = d3.select("body")
+.append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("width","60px")                  
+    .style("height","28px")                 
+    .style("padding","2px")             
+    .style("font","0px sans-serif")
+    // .style("border","0px")      
+    // .style("border-radius","8px")  
+    // .style("background", "lightsteelblue")
+    .style("visibility", "hidden");
             
 
 var svg = d3.select("svg"),
@@ -43,7 +94,7 @@ var color = d3.scaleLinear()
 d3.queue()
     .defer(d3.json, "https://d3js.org/us-10m.v1.json")
     // .defer(d3.tsv, "unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
-    .defer(d3.tsv, "1862-1914.tsv", function(d) {artwork.set(d.id, +d.rate); })
+    .defer(d3.tsv, "USTEST.tsv", function(d) {artwork.set(d.id, +d.rate); })
 
     .await(ready);
 
@@ -84,8 +135,29 @@ function ready(error, us) {
       })
         
       .attr("d", path)
-    .append("title") // Tooltip
-      .text(function(d) { return d.rate; });
+    // .append("title") // Tooltip
+    //   .text(function(d) { return d.rate; });
+            .on("mouseover", function(d){
+			       console.log(d);
+		// 	console.log(images[d.id]);
+            tooltip.text(d.id);
+            tooltip.append("img")
+                    .attr("src",images[d.id].link)
+                    .attr("x", -8)
+                    .attr("y", -8)
+                    .attr("width","100px")                  
+                    .attr("height","relative"); 
+            tooltip.style("visibility", "visible");
+        })
+        .on("mousemove", function(){
+			return tooltip
+			.style("top", (event.pageY-10)+"px")
+			.style("left",(event.pageX+10)+"px")
+			;})
+        .on("mouseout", function(){
+			return tooltip
+			.style("visibility", "hidden");
+			});
       
   svg.append("path")
       .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
@@ -118,15 +190,15 @@ function ready(error, us) {
       
   
       
-  svg.selectAll('.stateImages')
-    .data(topojson.feature(us, us.objects.states).features)
-    .enter().append("image")
-        .attr("xlink:href", (d) => images[2]['link'])
-        .attr("x", "550")
-        .attr("y", "520")
-        .attr("width", "100")
-        .attr("height", "100");
+  // svg.selectAll('.stateImages')
+  //   .data(topojson.feature(us, us.objects.states).features)
+  //   .enter().append("image")
+  //       .attr("xlink:href", (d) => images[d.id]['link'])
+  //       .attr("x", "550")
+  //       .attr("y", "520")
+  //       .attr("width", "100")
+  //       .attr("height", "100");
 
     
-    svg.selectAll('.stateImages').raise();
+  //   svg.selectAll('.stateImages').raise();
 }
