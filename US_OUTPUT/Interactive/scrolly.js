@@ -33,7 +33,7 @@
 			console.log(response)
 			// response = { element, direction, index }
 
-			// add color to current step only
+			// add black text color to current step only
 			step.classed('is-active', function (d, i) {
 				return i === response.index;
 			})

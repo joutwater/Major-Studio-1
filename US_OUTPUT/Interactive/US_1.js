@@ -7,6 +7,8 @@
 // https://bl.ocks.org/chucklam/f628765b873d707a3d0e44ffc78deab8
 
 //states are in alphabetical order
+
+// creating object list of image links with its respective state ID
 var images = {10:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/14341/44171/restricted"},
               12:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/319026/679111/restricted"},
               13:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/504694/1026215/restricted"},
@@ -50,7 +52,8 @@ var images = {10:{link: "https://collectionapi.metmuseum.org/api/collection/v1/i
               56:{link: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/21186/49517/main-image"}
               
             };
-            
+
+//creating div for tooltip with styles            
 var tooltip = d3.select("body")
 .append("div")
     .style("position", "absolute")
@@ -73,10 +76,11 @@ var path = d3.geoPath();
 
 var artwork = d3.map();
 
-var x = d3.scaleLinear()
-    .domain([1, 10])
-    .rangeRound([600, 960]);
+// var x = d3.scaleLinear()
+//     .domain([1, 10])
+//     .rangeRound([600, 960]);
 
+//defining colors for fill
 var color1 = "#f3f3f3";
 var color2 = "#feedde";
 var color3 = "#fdbe85";
@@ -85,10 +89,10 @@ var color5 = "#e6550d";
 var color6 = "#a63603";
 var color7 = "#651f03"
     
-var minColor = "#ffdb00" , maxColor = "#000000";
-var color = d3.scaleLinear()
-    .domain([0, 868])
-    .range([minColor, maxColor]);
+// var minColor = "#ffdb00" , maxColor = "#000000";
+// var color = d3.scaleLinear()
+//     .domain([0, 868])
+//     .range([minColor, maxColor]);
 
 // preparing data
 d3.queue()
@@ -98,15 +102,18 @@ d3.queue()
 
     .await(ready);
 
+//function to actively make changes to the dom
+//(all previous code is prep and this function puts everything in action)
 function ready(error, us) {
   if (error) throw error;
 
-//creating fill color for different values
+
   svg.append("g")
       .attr("class", "counties")
     .selectAll("path")
     .data(topojson.feature(us, us.objects.states).features)
     .enter().append("path")
+    //creating fill color for different values
       .attr("fill", function(d) {
         
         // color scale
@@ -135,25 +142,31 @@ function ready(error, us) {
       })
         
       .attr("d", path)
-    // .append("title") // Tooltip
-    //   .text(function(d) { return d.rate; });
+    // .append("title") // Tooltip for displaying artwork count only
+    // .text(function(d) { return d.rate; });
+    
+            //make tooltip visible on mouseover and designate data sources for display of image  
             .on("mouseover", function(d){
 			       console.log(d);
-		// 	console.log(images[d.id]);
+	      // 	console.log(images[d.id]);
             tooltip.text(d.id);
             tooltip.append("img")
                     .attr("src",images[d.id].link)
-                    .attr("x", -8)
-                    .attr("y", -8)
+                    // .attr("x", -100)
+                    // .attr("y", -8)
                     .attr("width","100px")                  
                     .attr("height","relative"); 
             tooltip.style("visibility", "visible");
         })
+        
+        //making tooltip absolute positioned while I continue to hover over a state's shape
         .on("mousemove", function(){
 			return tooltip
 			.style("top", (event.pageY-10)+"px")
 			.style("left",(event.pageX+10)+"px")
 			;})
+			
+			  //turning off the tooltip when leaving a state's shape (path)
         .on("mouseout", function(){
 			return tooltip
 			.style("visibility", "hidden");
