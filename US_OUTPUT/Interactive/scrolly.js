@@ -1,4 +1,6 @@
-// using d3 for convenience
+// https://github.com/russellgoldenberg/scrollama#examples
+
+
 		var main = d3.select('main')
 		var scrolly = main.select('#scrolly');
 		var figure = scrolly.select('figure');
@@ -38,6 +40,7 @@
 
 			// update graphic based on step
 			figure.select('img').attr("src", response.element.getAttribute("data-src"));
+			// figure.select('div').
 			// figure.select('svg', 'img').attr("src", response.element.getAttribute("data-src"));
 			// if(response.element.getAttribute("data-src")==="Layer_1")
 			// figure.innerHTML = document.querySelector("#"+response.element.getAttribute("data-src")).outerHTML;
@@ -60,11 +63,13 @@
 			// 		this will also initialize trigger observations
 			// 3. bind scrollama event handlers (this can be chained like below)
 			scroller.setup({
-				step: '#scrolly article .step',
+				step: '.step',
 				offset: 0.75,
 				debug: false,
 				
 			})
+	
+			
 			
 			// if (response.direction == "up"){
 			// 	scroller.setup({
@@ -82,3 +87,4 @@
 
 		// kick things off
 		init();
+	

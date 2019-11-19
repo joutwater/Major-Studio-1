@@ -34,6 +34,7 @@
     	-ms-flex: 1;
     	flex: 1;
 		}
+		
 		article {
 			position: relative;
 			padding: 0 1rem;
@@ -83,6 +84,7 @@
 		
 		figure img {
 		max-width: 100%;
+		
 		}
 		.step {
 			/*margin: 0 auto 2rem auto;*/
