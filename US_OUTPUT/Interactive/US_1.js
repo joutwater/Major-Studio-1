@@ -159,14 +159,14 @@ function ready(error, us) {
             tooltip.style("visibility", "visible");
         })
         
-        //making tooltip absolute positioned while I continue to hover over a state's shape
+        //making tooltip positioned by mouse as you move across state
         .on("mousemove", function(){
 			return tooltip
 			.style("top", (event.pageY-10)+"px")
 			.style("left",(event.pageX+10)+"px")
 			;})
 			
-			  //turning off the tooltip when leaving a state's shape (path)
+			  //turning off the tooltip when leaving a state
         .on("mouseout", function(){
 			return tooltip
 			.style("visibility", "hidden");
