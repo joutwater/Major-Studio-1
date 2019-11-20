@@ -7,17 +7,17 @@ Technically, one of my goals in this project was to use d3, since I hadn’t use
 #### Layout:
 Since my writing in this is more stream-of-consciousness than academic, I wanted to offer a framework of the passages below if you want to skip to one or another.
 
-Process: Technical
-	Interactive map d3
-	Reflections
-	Scrollytelling in d3
-	Reflections
+##### Process: Technical
+###### Interactive map d3
+###### Reflections
+###### Scrollytelling in d3
+###### Reflections
 
-Process: Creative
-	Beginning stages
-	Logic with date ranges and visual representation
-	Choices in borders and color
-	Fonts and formatting
+##### Process: Creative
+###### Beginning stages
+###### Logic with date ranges and visual representation
+###### Choices in borders and color
+###### Fonts and formatting
 
 Summary
 
