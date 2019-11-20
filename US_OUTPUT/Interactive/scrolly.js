@@ -85,6 +85,6 @@
 			window.addEventListener('resize', handleResize);
 		}
 
-		// kick things off
+		// intialize
 		init();
 	
