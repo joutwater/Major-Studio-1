@@ -14,7 +14,7 @@ Mock ups:
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_1B%402x.png)
 
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_1C%402x (1).png)
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_1C%402x_1.png)
 
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_2A%402x.png)
