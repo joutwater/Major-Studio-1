@@ -166,12 +166,3 @@ Location painted: I decided to separate each group of locations by lines splitti
 Attire: This one was tough to figure out. I felt that the only remaining space was to use parts of the portait, but i didnt want to take too much of the space so one could still see the portrait. I played with opacity and the ratio of each portait to create the filled rectangle at the bottom of each. The colors choices were inspired by a range of gold for the golden era of painting around this time, but i made slight adjuistments to make each discernable from the other while not too loud.
 
 Controversy: These were my favorite! I wanted these to stand out the most becasue they reveal the most interesting parts of his story I think. The copies exist were inspired by richard while we were going over formatting ideas. That symbol really makes an impact when you turn it on because it takes up a lot of the margin space and creates a more engaging composition. The attribution debated was also fun. I wanted to create a graphic signature and put it on the top right, almost floating off of the painting to make it seem like it could be his or not his. I ended up moving it more back on the paintings because it was a little bit tough for the eyes to follow it from the painting, over the white border, and onto the black. It was the first time I had used an SVG in p5. I feel like this is a game changer in terms of symbology!!
-
-## New Contexts Project
-
-### Early Stages
-
-When presented with the prompt for our fourth and final project, I was determined to make something in three dimensions. I started looking into some options with photogrammetry and other modeling technologies, but with the limited timeframe, I decided to make something with my hands, leaving the computer screen. I would create a sculpture reflecting the data from my qualitative project of Rembrandt's self-portraits.
-
-Mock ups:
-
