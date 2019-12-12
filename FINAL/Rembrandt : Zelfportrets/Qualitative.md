@@ -173,3 +173,5 @@ Controversy: These were my favorite! I wanted these to stand out the most becasu
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_ss_3.png)
 
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_vid.gif)
+
