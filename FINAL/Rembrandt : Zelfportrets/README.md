@@ -1,5 +1,37 @@
 ## Process (Qualitative)
 
+### Early Stages
+
+My goal since the last topic discussion was to research and develop data on Rembrandt and his portrait paintings. At first, I wanted to just look at portraits he had created, but it went much further once I found out more about Rembrandt. A couple interesting facts : He created at least 40 self-portraits thouhgout his career (up until death) and nearly half of what was thought to be his original work was attributed to his pupils. I am going to focus on Rembrandt's portrait paintings, both of others and himself. I have created a few visualizations (below) to help create a story around the various subjects of his portraits and timeline of his self portraits.
+
+#### Viz 1
+
+I want to create a grid of Rembrandt's regular portraits first. There are between 50 and 60. Once arranged in a grid pattern, I want to add an interactivity to the photos so when the mouse hovers over an image, it displays symbols thats describe various qualitative information and highlight the current portrait's connections to others. I plan to use the image loading that we went through in last week's lab with p5. I need to do more research on the mouse over capabilities.
+
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2942.jpg)
+
+#### Viz 2
+
+My next visualization concept is to introduce the viewer to Rembrandt's self portraits. I want to loop through each of Rembrandt's forty self portraits to show how he grew older over time (from his perspective) and hopefully highlight any stylistic differences. I am thinking of using framecount in p5 and changing opactity to more seamlessly flow through each portrait. I wonder if I should add a date or another visual variable to offer an addition understanding of progression in each image.
+
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2943.jpg)
+
+#### Viz 3
+
+This visualization supplements the previous self-portrait example, offering a timeline showing the amount of self-portraits created in each year on top (images stacked) and then biographical life events below the timeline. It could be interesting to see how life events could have affected his self-portraits. Maybe this would be better to show both regular portriats and self-portraits so there would be more data points? This would be a static viz as of now.
+
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/IMG_2944.jpg)
+
+##### Challenges
+
+1. Data: The MET doesn't have all of Rembrandt's portraits or self-protraits (understandably), so it will take some time on the web to find and verify all images. This will be especially tough since it is still debated whether some of his work is actually his, but I will just have to try my best. Also, I will have to store and manage my imagery locallly first, and bring into AWS somehow for manipulation in p5. Aside from the images, I do need to spend time getting information on each image and figure out how each relates to another. I will have to create some sort of map for this.
+
+2. Code: I haven't used a lot of the code that will be required for this project to work, but I think it is a doable challenge. I plan to follow the imagery lab last thursday and make slight edits to create my grid. I plan to learn about mouseover capabilities and apply them to the grid. I will use p5 for the imagery loop as well, since I have created animation following similar themes in a different class. I do want to spend some time in photoshop with each of the self-portraits to crop and edit the imagery so they flow well together.
+
+3. Hosting on website: I have never done this but I think the project would be best displayed in this way. I have to learn how to make this happen.
+
+## Final Stages
+
 At the outset of this project, I knew that I wanted to focus on Dutch Impressionism and imagery, but I wasn't sure of which artist to focus on. After looking at a few of the prominent artists from the time, Rembrandt stood out as having the most unique story, especially through his approximately forty self-portraits. I began researching like crazy, at first looking into all of his portraits, not just self-portraits. I was finding really amazing connections. For example, one of his self-portaits was painted on wood from the same tree as a two-portrait-set he painted of other men. At a certain point, however, I realized there was a very rich story just by looking at his self-portraits, not only becuase there were some interesting commonalities between them, but because I thought it was very interesting how he was telling a story about himself. As you will see, he sometimes characterized himself in a way that was different from his reality.
 
 Almost all of the data for this project was from sources other than the MET, although some of my initial inspiration for the porject was realized through searching MET data. Through my research, I found a few data sources that were the foundation by which I populated a list of categories and subcategories I found common throughout his works. The most reliable of those sources is a Dutch digital art collection website called [RKD](https://rkd.nl/en/explore/images#search=simple&query=rembrandt%20self-portrait&filters[kunstenaar][]=Rembrandt&filters[RKD_algemene_trefwoorden][]=man's%20portrait&filters[objectcategorie][]=painting&filters[periode]=1625%7C%7C1670&start=0&facets[periode][start]=1625&facets[periode][end]=1671&facets[periode][gap]=7) that specializes in artists from the Netherlands. This source had almost all of his self-portraits and had all of the data on controversy and interesting connections to Rembrandt's other portraits. Another source was a [website](http://www.rembrandtpainting.net/complete_catalogue/start_self_portraits.htm) completely dedicated to Rembrants self-portraits. This was helpful as a cross-reference to the primary source and it was nice to see a chronological list of his self-portraits, which was a structure simmilar to what I was planning to employ. There were some works that did not match with RKD, so I had to look at a few other websites to get the final group. There is still a chance that I might be incorrect on a few of the works, but they are mostly vetted! Another huge source was the website of each museum or collection that housed the self-portrait. They didn't always have information about the piece, but when they did, it offered amazing details and as I was categorizing each of his works.
@@ -135,4 +167,4 @@ Attire: This one was tough to figure out. I felt that the only remaining space w
 
 Controversy: These were my favorite! I wanted these to stand out the most becasue they reveal the most interesting parts of his story I think. The copies exist were inspired by richard while we were going over formatting ideas. That symbol really makes an impact when you turn it on because it takes up a lot of the margin space and creates a more engaging composition. The attribution debated was also fun. I wanted to create a graphic signature and put it on the top right, almost floating off of the painting to make it seem like it could be his or not his. I ended up moving it more back on the paintings because it was a little bit tough for the eyes to follow it from the painting, over the white border, and onto the black. It was the first time I had used an SVG in p5. I feel like this is a game changer in terms of symbology!!
 
-Thank you for all of the feedback and inspiration Alec and Richard.
+## Process (New Contexts)
