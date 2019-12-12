@@ -29,3 +29,10 @@ And here are photos of the final sculpture:
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3810.JPG)
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3815.JPG)
+
+
+### Reflections:
+
+Technical:
+
+Design:
