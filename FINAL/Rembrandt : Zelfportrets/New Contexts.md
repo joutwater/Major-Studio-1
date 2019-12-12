@@ -8,3 +8,4 @@ I immediately began looking for a generic 3d model online that I could manipulat
 
 Mock ups:
 
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_1A%402x.png)
