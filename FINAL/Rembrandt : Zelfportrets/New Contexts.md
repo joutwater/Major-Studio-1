@@ -18,3 +18,14 @@ Mock ups:
 
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/3D_MOCK_2A%402x.png)
+
+
+
+And here are photos of the final sculpture:
+
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3810.JPG)
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3815.JPG)
