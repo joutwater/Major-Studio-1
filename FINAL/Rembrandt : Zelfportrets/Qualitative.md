@@ -168,6 +168,8 @@ Attire: This one was tough to figure out. I felt that the only remaining space w
 
 Controversy: These were my favorite! I wanted these to stand out the most becasue they reveal the most interesting parts of his story I think. The copies exist were inspired by richard while we were going over formatting ideas. That symbol really makes an impact when you turn it on because it takes up a lot of the margin space and creates a more engaging composition. The attribution debated was also fun. I wanted to create a graphic signature and put it on the top right, almost floating off of the painting to make it seem like it could be his or not his. I ended up moving it more back on the paintings because it was a little bit tough for the eyes to follow it from the painting, over the white border, and onto the black. It was the first time I had used an SVG in p5. I feel like this is a game changer in terms of symbology!!
 
+![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
+
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_ss_1.png)
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_ss_2.png)
