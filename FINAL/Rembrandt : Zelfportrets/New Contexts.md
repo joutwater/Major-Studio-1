@@ -21,8 +21,9 @@ Mock ups:
 
 
 
-And here are photos of the final sculpture:
+And here are photos of the final sculpture (and legend):
 
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
 
@@ -33,6 +34,6 @@ And here are photos of the final sculpture:
 
 ### Reflections:
 
-Technical:
+Technical: The most technical parts of this project were 3d printing and assembling the floating shelves in an even grid. I had never 3d printed before so figuring out the correct file formats and various steps and software processes that lead to a final printed figure. And then I had to do it for 40 figrues! Then, building a perfect grid for the shelves. Unfortunately the gentleman at ace hardware who cut my plywood cut it a bit shorter than 4 inches, so I couldn't space my shelves as easily as I imagined. I had to measure and mark the centerline of each shelf and have that correspond to a grid based of 8 center lines per column and repeat for 5 rows. It probably took about 3 hours to measure everything to be as I wanted. I then used epoxy to adhere each shelf to the backboard. Then I painted the shelves and backboard by hand with black acrylic paint.
 
-Design:
+Design: I wish I had more time to develop a visual language that bettter reflected Rembrandt's work, but I was still very happy with my finished project. I wanted the sculpture to have artistic integrity, whether or not a viewer knew about the data associated. As I mentioned, each figure was an abstraction of a self portrait. I used color, orientation and position to differentiate between different categories. The designs I was most proud of was painting each figure by hand (to give them an impressionist feel) and creating the visual effect of the figures rotating through Rembrandt's career. Some of the other visual language components worked but were not as special to me, as I did not have enough time to develop them further.
