@@ -23,7 +23,7 @@ Mock ups:
 
 And here are photos of the final sculpture (and legend):
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/rem_legend_final.png)
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
 
