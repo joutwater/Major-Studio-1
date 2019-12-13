@@ -1,4 +1,4 @@
-# Major Studio, Fall 2019, John Outwater
+# 
 
 # Rembrandt : Zelfportrets
 
