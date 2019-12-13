@@ -6,6 +6,8 @@
 
 [Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Rembrandt%20:%20Zelfportrets)
 
+<img src="https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png">
+
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
 
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_ss_3.png)
