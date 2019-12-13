@@ -2,7 +2,7 @@
 
 #### Through a data visualization and data sculpture, this project explores the qualitaties of Rembrandt's self-portraits to understand the artist and the cultural context of Dutch impressionism.
 
-![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
+[Link](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
 
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/REM_ss_3.png)
 
