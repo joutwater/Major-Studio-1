@@ -29,13 +29,13 @@
 
 [Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Westward%20Expansion)
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
+![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
 
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
+![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
 
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
+![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
 
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/Westward_Expansion.gif)
+![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/Westward_Expansion.gif)
