@@ -1,3 +1,5 @@
+#Major Studio, Fall 2019, John Outwater
+
 # Rembrandt : Zelfportrets
 
 ### Through a data visualization and data sculpture, this project explores the qualitaties of Rembrandt's self-portraits to understand the artist and the cultural context of Dutch impressionism.
