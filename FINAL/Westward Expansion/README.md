@@ -25,14 +25,6 @@ After my first attempt at conveying American Artistic output in the quantitative
 
 Technically, one of my goals in this project was to use d3, since I hadn’t used it in any previous projects. Also, I wasn’t expecting it at first, but I got to know html and css much better than I knew before. More than anything, this project taught me what it looks like when multiple programming language types work in harmony to create a data visualization of higher complexity and therefore more effective storytelling.
 
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
-
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
-
-![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
-
-
-
 #### Layout:
 Since my writing in this is more stream-of-consciousness than academic, I wanted to offer a framework of the passages below if you want to skip to one or another.
 
@@ -78,6 +70,15 @@ Another fun part of the process was figuring out the border changes and actually
 
 #### Fonts and formatting
 The last major aspect in the design for me was the font choices, alignment, and spacing between each section. This can be a very daunting task for me because there are so many directions to go, but once you start making decisions and experimenting, the visual themes start to come together. The first font choice I made was in the map legend. I used a helvetica style called neue haas grotesk and used the same font in my insights section. I like the straightforwardness of this font for some aspects, but I wanted to add a different font for the titles of each section that better reflected the time period of my story. I looked through google fonts and found a nice serif font called Libre Baskerville. I found this have enough character but not over-flourish so everything was still easily readable. Next was spacing all titles, subtitles, and content. This was when I was able to get my hands dirty with the html and css again, playing with margins, padding, different units of measurement for font sizes, and the syntax for isolating certain classes or ids in the html. Since I am still learning this, there were some areas that could have been more clean. For example, sometimes I would add an empty h4 in order to give more spacing between content if I couldn’t figure it out in css. All around, I was happy with the formatting and visual grouping given my limited experience with this beforehand.  
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
+
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
+
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
+
 
 ### Summary:
 I feel that I’ve really learned something valuable in this project through the levels of complexity blending the technical and creative processes. It was very challenging but rewarding to see a product that expressed my ideas and hopefully offered others an enjoyable narrative with takeaway insights.
