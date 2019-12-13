@@ -25,6 +25,12 @@ After my first attempt at conveying American Artistic output in the quantitative
 
 Technically, one of my goals in this project was to use d3, since I hadn’t used it in any previous projects. Also, I wasn’t expecting it at first, but I got to know html and css much better than I knew before. More than anything, this project taught me what it looks like when multiple programming language types work in harmony to create a data visualization of higher complexity and therefore more effective storytelling.
 
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
+
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
+
 
 
 #### Layout:
