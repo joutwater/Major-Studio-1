@@ -8,17 +8,17 @@
 
 [Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Rembrandt%20:%20Zelfportrets)
 
-![Image](/week07/QUAL_LEGEND_2.png)
+![Image](/FINAL/Images/QUAL_LEGEND_2.png)
 
-![Image](/week07/REM_ss_3.png)
+![Image](/FINAL/Images/REM_ss_3.png)
 
-![Image](/master/week07/REM_vid.gif)
+![Image](/FINAL/Images/REM_vid.gif)
 
-![Image](/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3809.jpg)
+![Image](/FINAL/Images/IMG-3809.jpg)
 
-![Image](/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3810.JPG)
+![Image](/FINAL/Images/IMG-3810.JPG)
 
-![Image](/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3815.JPG)
+![Image](/FINAL/Images/IMG-3815.JPG)
 
 
 
@@ -31,13 +31,13 @@
 
 [Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Westward%20Expansion)
 
-![Image](/master/FINAL/Westward%20Expansion/Images/US_ss_1.png)
+![Image](/FINAL/Images/US_ss_1.png)
 
 
-![Image](/master/FINAL/Westward%20Expansion/Images/US_ss_2.png)
+![Image](/FINAL/Images/US_ss_2.png)
 
 
-![Image](/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
+![Image](/FINAL/Images/US_ss_3.png)
 
 
-![Image](/master/FINAL/Westward%20Expansion/Images/Westward_Expansion.gif)
+![Image](/FINAL/Images/Westward_Expansion.gif)
