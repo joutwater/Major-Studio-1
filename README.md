@@ -1,3 +1,16 @@
+ ---
+ ---
+
+@import "{{ site.theme }}";
+
+h3 {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
 #### Major Studio 
 
 # Rembrandt : Zelfportrets
