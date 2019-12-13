@@ -2,7 +2,9 @@
 
 #### Through a data visualization and data sculpture, this project explores the qualitaties of Rembrandt's self-portraits to understand the artist and the cultural context of Dutch impressionism.
 
-![Image](Downloads/QUAL_LEGEND_2.png)
+[Project Link](https://joutwater.github.io/Major-Studio-1/REMBRANDT_QUAL/)
+
+[Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Rembrandt%20:%20Zelfportrets)
 
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
 
