@@ -2,7 +2,8 @@
 
 # Rembrandt : Zelfportrets
 
-### Through a data visualization and data sculpture, this project explores the qualitaties of Rembrandt's self-portraits to understand the artist and the cultural context of Dutch impressionism.
+### Through data visualization and sculpture, this project explores the qualitaties of Rembrandt's self-portraits to understand the artist and the cultural context of Dutch impressionism.
+
 
 [Project Link](https://joutwater.github.io/Major-Studio-1/REMBRANDT_QUAL/)
 
@@ -26,6 +27,7 @@
 # Westward Expansion
 
 ### A visualization of creative proliferation in America by way of mapping the frequency of artworks by state from the 18th century to the early 20th century.
+
 
 [Project Link](https://joutwater.github.io/Major-Studio-1/US_OUTPUT/Interactive/)
 
