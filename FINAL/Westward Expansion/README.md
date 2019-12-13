@@ -11,7 +11,7 @@ This aspect of Westward expansion was a lot of data gathering and testing of dif
 
 ![alt text](https://github.com/joutwater/Major-Studio-1/blob/master/week04/bertin.jpg)
 
-Final Visuals:
+#### Final Visuals:
 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/1800-1850.png)
 
