@@ -4,7 +4,7 @@
 
 [Project Link](https://joutwater.github.io/Major-Studio-1/REMBRANDT_QUAL/)
 
-[Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Rembrandt%20:%20Zelfportrets)
+[Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Rembrandt%20:%20Zelfportrets)
 
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/week07/QUAL_LEGEND_2.png)
 
@@ -17,6 +17,18 @@
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3810.JPG)
 
 ![Image](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Rembrandt%20:%20Zelfportrets/Images/IMG-3815.JPG)
+
+
+A visualization of creative proliferation in America by way of mapping the frequency of artworks by state from the 18th century to the early 20th century.
+
+## Westward Expansion
+
+#### A visualization of creative proliferation in America by way of mapping the frequency of artworks by state from the 18th century to the early 20th century.
+
+[Project Link](https://joutwater.github.io/Major-Studio-1/US_OUTPUT/Interactive/)
+
+[Process & Documentation](https://github.com/joutwater/Major-Studio-1/tree/master/FINAL/Westward%20Expansion)
+
 
 
 ## Welcome to GitHub Pages
