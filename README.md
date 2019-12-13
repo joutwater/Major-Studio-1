@@ -10,7 +10,7 @@
 
 ![Image](/week07/QUAL_LEGEND_2.png)
 
-![Image](/blob/master/week07/REM_ss_3.png)
+![Image](/week07/REM_ss_3.png)
 
 ![Image](/master/week07/REM_vid.gif)
 
