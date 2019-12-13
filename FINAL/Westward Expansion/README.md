@@ -80,5 +80,8 @@ The last major aspect in the design for me was the font choices, alignment, and 
 ![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/US_ss_3.png)
 
 
+![alt_text](https://github.com/joutwater/Major-Studio-1/blob/master/FINAL/Westward%20Expansion/Images/Westward_Expansion.gif)
+
+
 ### Summary:
 I feel that I’ve really learned something valuable in this project through the levels of complexity blending the technical and creative processes. It was very challenging but rewarding to see a product that expressed my ideas and hopefully offered others an enjoyable narrative with takeaway insights.
