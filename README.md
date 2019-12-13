@@ -26,7 +26,7 @@
 
 # Westward Expansion
 
-### A visualization of creative proliferation in America by way of mapping the frequency of artworks by state from the 18th century to the early 20th century.
+### A visualization of creative proliferation in America over time by mapping the frequency of artworks from each state between the 18th century and the early 20th century.
 
 
 [Project Link](https://joutwater.github.io/Major-Studio-1/US_OUTPUT/Interactive/)
